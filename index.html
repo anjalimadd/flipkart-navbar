@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      .navbar {
+        background-color: #3e72e7;
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 8px 0;
+        align-items: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      img {
+        margin-right: 10px;
+      }
+      input {
+        height: 39px;
+        width: 500px;
+        margin: 3px;
+        padding: 0px 10px;
+        border-radius: 2px;
+        border: none;
+        font-size: 16px;
+        font-weight: 470;
+      }
+      .search-input {
+        position: relative;
+      }
+      .search-icon {
+        position: absolute;
+        top: 30%;
+        right: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        color: #3e72e7;
+      }
+      .login {
+        height: 35px;
+        padding: 1px 45px;
+        border-radius: 2px;
+        border: none;
+        color: #3e72e7;
+        margin: 0 25px;
+        font-size: 15px;
+        font-weight: 540;
+      }
+      a {
+        font-size: 18px;
+        margin: 0 20px;
+      }
+
+      .icon {
+        font-size: 10px;
+        cursor: pointer;
+        margin-top: -25px;
+        margin-left: 5px;
+      }
+      .icons {
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .product-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 75px;
+      }
+      .products div{
+        font-size: 16px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img
+        src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
+        alt=""
+      />
+      <div class="search-input">
+        <input placeholder="Search for products brands and more" type="text" />
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      </div>
+      <button class="login" type="button">Login</button>
+      <a href="#">Become a Seller</a>
+      <a>More <i class="fa-solid fa-chevron-down icon"></i> </a>
+      <a href="#"> <i class="fa-solid fa-cart-shopping icons"></i> Cart</a>
+    </div>
+    <div class="product-container">
+      <!-- Product cards go here -->
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100"
+          alt=""
+        />
+        <div>Grocery</div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100"
+          alt=""
+        />
+        <div>Mobile</div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/0d75b34f7d8fbcb3.png?q=100"
+          alt=""
+        />
+        <div>Fashion<i class="fa-solid fa-chevron-down icon"></i></div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100"
+          alt=""
+        />
+        <div>Electronics<i class="fa-solid fa-chevron-down icon"></i></div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/flap/64/64/image/ab7e2b022a4587dd.jpg?q=100"
+          alt=""
+        />
+        <div>Home<i class="fa-solid fa-chevron-down icon"></i></div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/flap/64/64/image/0ff199d1bd27eb98.png?q=100"
+          alt=""
+        />
+        <div>Appliances</div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100"
+          alt=""
+        />
+        <div>Travel</div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/flap/64/64/image/dff3f7adcf3a90c6.png?q=100"
+          alt=""
+        />
+        <div>Beauty,Toys and more<i class="fa-solid fa-chevron-down icon"></i></div>
+      </div>
+      <div class="products">
+        <img
+          src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/05d708653beff580.png?q=100"
+          alt=""
+        />
+        <div>Two Wheelers<i class="fa-solid fa-chevron-down icon"></i></div>
+      </div>
+    </div>
+  </body>
+</html>
